@@ -5,4 +5,6 @@ alias tmux-main="tmux new-session -s main -n irc 'irssi -c irc.freenode.net' \; 
 alias gbc-f=git-feature
 
 # Added by travis gem
-[ -f /Users/arnoldfrench/.travis/travis.sh ] && source /Users/arnoldfrench/.travis/travis.sh
+[ -f ~/.travis/travis.sh ] && source ~/.travis/travis.sh
+
+source <(gopass completion zsh)
